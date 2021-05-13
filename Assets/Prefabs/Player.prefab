@@ -131,6 +131,8 @@ MonoBehaviour:
   rb: {fileID: 2485110492669792566}
   forwardSpeed: 7500
   sidewaysSpeed: 100
+  upwardSpeed: 100
+  player: {fileID: 2485110492669792570}
 --- !u!114 &2485110492669792569
 MonoBehaviour:
   m_ObjectHideFlags: 0

@@ -2069,7 +2069,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 2485110492669792568, guid: d7584df5d5ef347268aa21cdd5f76c8f, type: 3}
       propertyPath: upwardSpeed
-      value: 45
+      value: 1000
       objectReference: {fileID: 0}
     - target: {fileID: 2485110492669792568, guid: d7584df5d5ef347268aa21cdd5f76c8f, type: 3}
       propertyPath: forwardSpeed
@@ -2243,7 +2243,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 7495414195726664580, guid: 7997a91b47eb44ccdaf9f13e08ea48f5, type: 3}
       propertyPath: m_TagString
-      value: lastGoal
+      value: goal
       objectReference: {fileID: 0}
     - target: {fileID: 8719198297916149611, guid: 7997a91b47eb44ccdaf9f13e08ea48f5, type: 3}
       propertyPath: m_Enabled

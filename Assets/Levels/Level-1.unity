@@ -202,6 +202,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 5f2d39f88790f4423938efd2b03e11d0, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  player: {fileID: 837239705}
 --- !u!1001 &953125063
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -1357,6 +1358,14 @@ PrefabInstance:
     - target: {fileID: 2485110492669792567, guid: d7584df5d5ef347268aa21cdd5f76c8f, type: 3}
       propertyPath: m_Name
       value: Player
+      objectReference: {fileID: 0}
+    - target: {fileID: 2485110492669792568, guid: d7584df5d5ef347268aa21cdd5f76c8f, type: 3}
+      propertyPath: player
+      value: 
+      objectReference: {fileID: 837239705}
+    - target: {fileID: 2485110492669792568, guid: d7584df5d5ef347268aa21cdd5f76c8f, type: 3}
+      propertyPath: upwardSpeed
+      value: 45
       objectReference: {fileID: 0}
     - target: {fileID: 2485110492669792570, guid: d7584df5d5ef347268aa21cdd5f76c8f, type: 3}
       propertyPath: m_RootOrder
