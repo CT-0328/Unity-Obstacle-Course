@@ -18,13 +18,16 @@ public class PlayerCollision : MonoBehaviour {
           movement.enabled = false;
           FindObjectOfType<Goal>().LastLevelGoal();
         }
-        if (collisionInfo.gameObject.tag == "Platform") {
+      }
+      void OnCollisionStay(Collision collisionInfo) {
+        if (collisionInfo.collider.tag == "Platform") {
           FindObjectOfType<PlayerMovement>().canJump();
           Debug.Log("Platform!!!!!");
         }
-        if (collisionInfo.gameObject.tag == "Ground") {
+        if (collisionInfo.collider.tag == "Ground") {
           FindObjectOfType<PlayerMovement>().canJump();
           Debug.Log("Ground!!!!!");
         }
-    }
+      }
+
   }
