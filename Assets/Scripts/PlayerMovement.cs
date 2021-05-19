@@ -18,12 +18,14 @@ public class PlayerMovement : MonoBehaviour {
       if (Input.GetKey("a")) {
         rb.AddForce(-sidewaysSpeed * Time.deltaTime, 0, 0, ForceMode.VelocityChange);
       }
-      if (Input.GetKey("space") && player.position.y < 1.01){
-        rb.AddForce(0, upwardSpeed * Time.deltaTime, 0, ForceMode.VelocityChange);
-      }
-
-      if (rb.position.y < -1) {
+      if (player.position.y < -1) {
         FindObjectOfType<GameManager>().GameOver();
+      }
+    }
+    public void canJump() {
+      if (Input.GetKey("space")){
+        rb.AddForce(0, upwardSpeed * Time.deltaTime, 0, ForceMode.VelocityChange);
+        Debug.Log("You pressed the space bar. woohoo");
       }
     }
 }
