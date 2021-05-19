@@ -25,7 +25,6 @@ public class PlayerMovement : MonoBehaviour {
     public void canJump() {
       if (Input.GetKey("space")){
         rb.AddForce(0, upwardSpeed * Time.deltaTime, 0, ForceMode.VelocityChange);
-        Debug.Log("You pressed the space bar. woohoo");
       }
     }
 }

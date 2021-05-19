@@ -22,11 +22,9 @@ public class PlayerCollision : MonoBehaviour {
       void OnCollisionStay(Collision collisionInfo) {
         if (collisionInfo.collider.tag == "Platform") {
           FindObjectOfType<PlayerMovement>().canJump();
-          Debug.Log("Platform!!!!!");
         }
         if (collisionInfo.collider.tag == "Ground") {
           FindObjectOfType<PlayerMovement>().canJump();
-          Debug.Log("Ground!!!!!");
         }
       }
 
