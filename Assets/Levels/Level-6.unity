@@ -225,7 +225,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 2756706184450855666, guid: 3690c65033658474abee36d16ce2d761, type: 3}
       propertyPath: m_LocalPosition.z
-      value: 761
+      value: 779
       objectReference: {fileID: 0}
     - target: {fileID: 2756706184450855666, guid: 3690c65033658474abee36d16ce2d761, type: 3}
       propertyPath: m_LocalRotation.w
@@ -363,7 +363,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 2756706184450855666, guid: 3690c65033658474abee36d16ce2d761, type: 3}
       propertyPath: m_LocalPosition.z
-      value: 893
+      value: 914
       objectReference: {fileID: 0}
     - target: {fileID: 2756706184450855666, guid: 3690c65033658474abee36d16ce2d761, type: 3}
       propertyPath: m_LocalRotation.w
@@ -490,6 +490,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 5f2d39f88790f4423938efd2b03e11d0, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  winText: {fileID: 0}
   player: {fileID: 0}
 --- !u!1001 &974447482
 PrefabInstance:
@@ -983,7 +984,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 2756706184450855666, guid: 3690c65033658474abee36d16ce2d761, type: 3}
       propertyPath: m_LocalPosition.z
-      value: 893
+      value: 914
       objectReference: {fileID: 0}
     - target: {fileID: 2756706184450855666, guid: 3690c65033658474abee36d16ce2d761, type: 3}
       propertyPath: m_LocalRotation.w
@@ -1314,7 +1315,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 2756706184450855666, guid: 3690c65033658474abee36d16ce2d761, type: 3}
       propertyPath: m_LocalPosition.z
-      value: 761
+      value: 779
       objectReference: {fileID: 0}
     - target: {fileID: 2756706184450855666, guid: 3690c65033658474abee36d16ce2d761, type: 3}
       propertyPath: m_LocalRotation.w
@@ -1586,7 +1587,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 7495414195726664580, guid: 7997a91b47eb44ccdaf9f13e08ea48f5, type: 3}
       propertyPath: m_TagString
-      value: lastGoal
+      value: goal
       objectReference: {fileID: 0}
     - target: {fileID: 8719198297916149611, guid: 7997a91b47eb44ccdaf9f13e08ea48f5, type: 3}
       propertyPath: m_Enabled

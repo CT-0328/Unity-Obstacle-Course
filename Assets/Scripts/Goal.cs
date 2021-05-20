@@ -1,9 +1,10 @@
 using UnityEngine;
 using UnityEngine.SceneManagement;
+using UnityEngine.UI;
 //using UnityEngine.UI;
 
 public class Goal : MonoBehaviour {
-
+    public Text winText;
     public Transform player;
     //public Text winText;
 
@@ -12,6 +13,6 @@ public class Goal : MonoBehaviour {
         SceneManager.LoadScene(NextLevel);
     }
     public void LastLevelGoal() {
-      Debug.Log("You Win!");
+      winText.text = "You Win!";
     }
 }
